@@ -1,0 +1,145 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-rows:1fr 2fr 1fr;
+    width: 100%;
+    min-height: 100vh;
+}
+.header{
+    grid-row-start: 1;
+    grid-row-end: 2;
+   
+}
+.text1{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: #832c2d;
+}
+.imgsection{
+    grid-row-start: 4;
+   background-color: #fefefe;
+    grid-row-end: 7;
+ 
+}
+
+.header img{
+    width: 200px;
+    height:180px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.main-heading h1{
+    font-size: 6rem;
+    padding-left: 63px;
+    color: #fff;
+    font-weight: 700;
+    /* line-height: 1.2; */
+}
+.main-heading h3{
+    color: black;
+    font-size: 3.5rem;
+    padding-left: 63px;
+    font-weight: 700;
+    /* margin-bottom: 10px; */
+    /* line-height: 1.2; */
+}
+
+.main-heading p{
+    font-size: 1rem;
+      padding-left: 67px;
+      padding-right: 67px;
+      font-size: 20px;
+      color: white;
+      
+}
+.heading-1{
+    margin-bottom: 18px;
+}
+.parag1{
+    margin-bottom: 18px;
+}
+.main-img{
+    display: grid;
+    width: 100%;
+    height: 100px;
+    margin-top: 45px;
+
+}
+.top-row{
+    display: grid;
+    grid-template-columns: 1fr 14fr;
+    gap: 1px;
+}
+.icon{
+    padding-left: 73px;
+    width: 120px;
+    height: 50px;
+    padding-top: 6px;
+    
+}
+.icon-heading{
+           
+           width: 100%;
+            padding-top: 0px;
+           padding-bottom: 2px;
+           height: 50px;
+            font-size: 2.7rem;
+            font-family: sans-serif;
+            font-weight:bold;
+       
+}
+.icon img{
+    width: 42px;
+    height: 42px;
+}
+.ftbl-icon{
+    height: 300px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-top: 0px;
+
+}
+.img1{
+  grid-column: 1;
+    
+}
+.img2{
+    
+    grid-column: 2;
+}
+.img3{
+    grid-column:3;
+     
+
+}
+.img4{
+
+    grid-column: 4;
+    
+}
+.img5{
+     
+    grid-column: 5;
+
+}
+.ftbl-icon img{
+    width: 40%;
+    height: 40%;
+    margin-left: 90px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.ftbl-icon h5{
+    padding-left: 27%;
+    color: rgb(155, 12, 12);
+    font-size: 1.5rem;
+}
+.ftbl-icon h6{
+    padding-left: 37%;
+    font-size: 1.5rem;
+}
